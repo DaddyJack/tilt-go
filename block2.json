@@ -1,0 +1,70 @@
+{
+"BlockName" : "block2",
+"Trials" :
+[
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": -15,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": 15,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": -5,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": 5,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": -25,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": 25,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": -35,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": 35,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ }
+ ]
+ }

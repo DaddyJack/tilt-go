@@ -1,0 +1,12 @@
+{
+	"pdist": 30,
+	"height": 100,
+	"Wide" : 400,
+	"MaxTrials" :  2,
+	"Practice" :   1,
+	"BreakDelay" : 3000,
+	"EndDelay" :   5000,
+	"Iti" :        1000,
+	"BlockNames" :
+		["practice","block1" ,"block2","block3","block4"]	
+}

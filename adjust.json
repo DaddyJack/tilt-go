@@ -1,0 +1,67 @@
+; globals can be entered in any order (; in col 1 is a comment)
+; nblocks is determined by the number of [block headers]
+; The values in blocklist MUST match the block headers
+; If there are practice trials set practice to 1 otherwise 0.
+; max_rt should be <= rs_dur
+{"globals" : {
+	{"Pdist": 25}
+	{"Heigh": 100}
+	{"Wide":400}
+	{"MaxTrials":2}
+	{"Practice": 1}
+	{"BreakDelay": 3000}
+	{"EndDelay": 5000}
+	{"Iti": 1000}
+	{"NBlocks": 5}
+}
+
+{"practice" : {
+	1 720 -5 720 0 20
+0 -15 +15 -15 0 20
+[block1]
+0 15 -15 15 0 20
+0 -15 +15 -15 0 20
+0 5 -5 5 0 20
+0 -5 5 -5 0 20
+0 25 -25 25 0 20
+0 -25 25 -25 0 20
+0 35 -35 35 0 20
+0 -35 35 -35 0 20
+[block2]
+1 720 -15 720 0 20
+1 720 +15 720 0 20
+1 720 -5 720 0 20
+1 720 5 720 0 20
+1 720 -25 720 0 20
+1 720 25 720 0 20
+1 720 -35 720 0 20
+1 720 35 720 0 20
+[block3]
+2 15 720 15 0 20
+2 -15 720 -15 0 20
+2 5 720 5 0 20
+2 -5 720 -5 0 20
+2 25 720 25 0 20
+2 -25 720 -25 0 20
+2 35 720 35 0 20
+2 -35 720 -35 0 20
+[block4]
+3 720 720 720 0 20
+3 720 720 720 0 20
+3 720 720 720 0 20
+3 720 720 720 0 20
+3 720 720 720 0 20
+3 720 720 720 0 20
+3 720 720 720 0 20
+3 720 720 720 0 20
+[headerLines]
+;col 1 trial_type
+;col 2 top degree
+;col 3 mid degree
+;col 4 bottom degree
+;col 5 standard
+;col 6 pse
+;col 7 gap
+;col 8 num adjusts
+[end]
+

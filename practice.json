@@ -1,0 +1,23 @@
+{
+"BlockName" :"practice",
+"Trials" :
+[
+
+ {
+   "Condition": 1,
+   "Top": 720,
+   "Middle": -5,
+   "Bottom": 720,
+   "Orientation": 0,
+   "NAdjust": 20
+ },
+ {
+   "Condition": 0,
+   "Top": -15,
+   "Middle": 15,
+   "Bottom": -15,
+   "Orientation": 0,
+   "NAdjust": 20
+ }
+]
+}
